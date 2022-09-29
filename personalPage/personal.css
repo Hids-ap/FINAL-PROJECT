@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #000;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #cfff00;
+    color: white;
+  }
+
+  .Ptable 
+  {
+      background-color: lightgrey;
+      margin-left: 300px;
+      margin-right:400px;
+      border: 1px solid black;
+  }
+  th, td
+  {
+    border:1px solid black;
+  }

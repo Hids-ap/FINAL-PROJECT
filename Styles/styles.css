@@ -1,0 +1,125 @@
+* {box-sizing: border-box}
+@import url("reset.css");
+
+body
+{
+   text-transform: uppercase;
+}
+
+
+header, body
+{
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ss
+{
+  padding: 0.5em;
+}
+header
+{
+ display: flex;
+ flex-direction: row;
+  align-items: center;
+  border-bottom: solid;
+  border-color: white;
+  
+  background-color: white;
+}
+
+a
+ {
+    text-decoration: none;
+    color: black;
+  }
+
+a:hover
+{
+    color: black;
+}
+
+a:visited
+{
+    color: blue;
+}
+
+.List1
+{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  align-content: center;
+  
+}
+.RibbonL
+{
+  padding: 1em;
+}
+
+li
+{
+    text-decoration: none;
+    list-style: none;
+}
+
+.container, .input, .registerbtn, .signin
+{
+    display: flex;
+    flex-direction: column;
+
+
+}
+/*  Adds padding to the container */
+
+.container {
+    
+    background-image:linear-gradient(skyblue,#f1f1f1);
+    background-color: skyblue;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 16px;
+}
+
+/* Defining input field parameters */
+input[type=text], input[type=password] {
+    background: #f1f1f1;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px;
+    display: inline-block;
+    border: none;  
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #f1f1f1;
+    outline: none;
+}
+
+/* Sets the style for the register button */
+.registerbtn {
+    background-color:skyblue;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: larger;
+}
+
+.registerbtn:hover {
+    opacity:initial;
+}
+
+/* Adding blue font for links */
+a {
+    color: dodgerblue;
+}
+
+/* Setting grey background color and centering text of sign in section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
